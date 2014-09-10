@@ -8,7 +8,7 @@ Tinymce is highly customizable and this add-on takes an options object via `tiny
 Installation
 ------------
 The editor is an add-on to the Bootstrap decorator. To use it, just include
-`dist/bootstrap-tinymce.min.js` *after* `dist/bootstrap-decorator.min.js`.
+`bootstrap-tinymce.min.js` *after* `dist/bootstrap-decorator.min.js`.
 
 Easiest way is to install is with bower, this will also include dependencies:
 ```bash
