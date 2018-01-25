@@ -5,8 +5,12 @@
   "scripts": {
     "test": "rm -fr coverage && ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS karma.conf.js"
   },
+  "main": "src/bootstrap-tinymce.js",
   "author": "Textalk",
   "license": "MIT",
+  "dependencies": {
+    "tx-tinymce": "*"
+  },
   "devDependencies": {
     "chai": "^1.9.0",
     "coveralls": "^2.11.0",
