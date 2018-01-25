@@ -5,6 +5,7 @@
   "scripts": {
     "test": "rm -fr coverage && ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS karma.conf.js"
   },
+
   "main": "src/bootstrap-tinymce.js",
   "author": "Textalk",
   "license": "MIT",
